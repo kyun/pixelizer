@@ -3,7 +3,6 @@ function pixelize(src: string, percentage: number = 1): Promise<string> {
   const context = canvas.getContext("2d") as CanvasRenderingContext2D;
   const _p = percentage > 1 ? 1 : percentage;
   context.imageSmoothingEnabled = false;
-  console.log(_p);
   return new Promise((resolve, reject) => {
     const image = new Image();
     image.src = src;
