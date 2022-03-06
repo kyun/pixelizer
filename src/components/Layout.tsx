@@ -104,9 +104,6 @@ const Layout: React.FC<any> = () => {
               <img src={uploadOutputSrc} />
             </div>
           )}
-          <a onClick={handleDownload} href={uploadOutputSrc}>
-            Download
-          </a>
         </div>
       </div>
       <div className="bg-slate-200 text-center py-8"></div>
