@@ -2,7 +2,7 @@ import React from "react";
 import { pixelize } from "../utils/pixelize";
 import UploadController from "./UploadController";
 
-const IMG = "./Lenna.png";
+const IMG = "./pixelizer/Lenna.png";
 const Layout: React.FC<any> = () => {
   const [outputSrc, setOutputSrc] = React.useState("");
   const [uploadSrc, setUploadSrc] = React.useState("");
@@ -38,9 +38,6 @@ const Layout: React.FC<any> = () => {
     }
   };
 
-  const handleDownload = () => {
-    window?.open()?.document.write(`<iframe src=${uploadOutputSrc}><\/iframe>`);
-  };
   return (
     <main className="">
       <header className="text-center py-4">
