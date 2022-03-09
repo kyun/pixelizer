@@ -2,7 +2,7 @@ import React from "react";
 import { pixelize } from "../utils/pixelize";
 import UploadController from "./UploadController";
 
-const IMG = "./pixelizer/Lenna.png";
+const IMG = "./Lenna.png";
 const Layout: React.FC<any> = () => {
   const [outputSrc, setOutputSrc] = React.useState("");
   const [uploadSrc, setUploadSrc] = React.useState("");
