@@ -1,5 +1,12 @@
-- tailwind
+# Pixelizer
 
+You can convert your image pixelized.
+
+## Demo 
+https://kyun.github.io/pixelizer
+
+
+## Highlight
 1. pixelize
 
 ```js
