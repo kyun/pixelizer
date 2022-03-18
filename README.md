@@ -2,11 +2,14 @@
 
 You can convert your image pixelized.
 
-## Demo 
+![image](https://github.com/kyun/pixelizer/blob/main/doc/image.png?raw=true)
+
+## Demo
+
 https://kyun.github.io/pixelizer
 
-
 ## Highlight
+
 1. pixelize
 
 ```js
